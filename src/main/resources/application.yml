@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  # 数据库连接信息
+  datasource:
+    url: jdbc:mysql://localhost:3306/jwtlogin?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: enki
+    driver-class-name: com.mysql.cj.jdbc.Driver
